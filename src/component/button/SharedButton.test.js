@@ -1,5 +1,5 @@
 import React from 'react';
-import {findByTestAttr, checkProps} from '../../../utils';
+import {findByTestAttr, checkProps} from '../../../utils/testUtils';
 import SharedButton from './SharedButton';
 import {shallow} from 'enzyme';
 
