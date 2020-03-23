@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Headline from "./index";
+import Headline from "./Headline";
 
 import { findByTestAttr, checkProps } from "../../../utils";
 

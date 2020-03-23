@@ -1,10 +1,10 @@
-import {types} from './../../actions/types';
-import postsReducer from './reducer';
+import {types} from '../../actions/types';
+import PostsReducer from './PostsReducer';
 
 
 describe('Posts Reducer', ()=>{
   it('should return default state', ()=>{
-    const newState = postsReducer(undefined, {});
+    const newState = PostsReducer(undefined, {});
     expect(newState).toEqual([]);
 
   });
@@ -15,7 +15,7 @@ describe('Posts Reducer', ()=>{
       {title: 'tests2'},
       {title: 'tests3'},
     ];
-    const newState = postsReducer(undefined, {
+    const newState = PostsReducer(undefined, {
       type: types.GET_POSTS,
       payload: posts
     });

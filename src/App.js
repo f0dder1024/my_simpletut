@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './component/header';
-import Headline from './component/headline';
+import Header from './component/header/Header';
+import Headline from './component/headline/Headline';
 import './app.scss';
 
 const tempArr = [
